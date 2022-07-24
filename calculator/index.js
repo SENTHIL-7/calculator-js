@@ -18,5 +18,5 @@ let outputScreen = document.getElementById("output-screen");
              outputScreen.value="";
          }
          function Delete(){
-             outputScreen.value=outputScreen.value.slice(0,2);
+             outputScreen.value=outputScreen.value.slice(0,outputScreen.value.length-1);
          }
